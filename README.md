@@ -80,7 +80,7 @@ Query ,    Mutation    Subscriptions
 for types 
 https://graphql.org/learn/schema/#type-system
 
-
+api for dummy data 
 
 https://dummyjson.com/docs/products
 
