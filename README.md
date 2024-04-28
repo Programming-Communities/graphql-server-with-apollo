@@ -34,3 +34,55 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ 
+
+ -------------------------
+
+# Graphql Sever 
+
+- app > api > graphql > route.ts or route.js
+- folder create api and graphql
+
+
+apollo-server-integration-next
+## Getting started
+
+https://www.npmjs.com/package/@as-integrations/next#getting-started
+ 
+```
+npm install @as-integrations/next
+npm install @apollo/server
+```
+TypeScript/ javeScript use  GraphQL Queries Raw Strings
+For example:
+```
+const query = `
+  query {
+    users {
+      id
+      name
+    }
+  }
+`;
+```
+
+or install as you like
+```
+  npm install graphql-tag
+```
+route.ts
+
+
+Get Post Put Delete          relly time 
+Query ,    Mutation    Subscriptions
+
+
+for types 
+https://graphql.org/learn/schema/#type-system
+
+
+
+https://dummyjson.com/docs/products
+
+
+![alt text](image.png)
